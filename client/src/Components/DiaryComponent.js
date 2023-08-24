@@ -3,24 +3,6 @@ import React, { useEffect, useState } from "react";
 import { getDiaryEntries } from "../helpers/DiaryService";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-
-//solid color background
-// const Bubble = styled.section`
-//     padding-left: 2em;
-//     padding-top: 0.5em;
-//     padding-bottom: 2em;
-//     padding-right: 2em;
-//     margin-top: 3em;
-//     margin-left: 1em;
-//     margin-right: 1em;
-//     margin-bottom: 5em;
-//     background-color: #144459;
-//     opacity: 0.9;
-//     border-radius: 20px;
-//     color: antiquewhite;
-// `
-
-// glass background
 const Bubble = styled.section`
   backdrop-filter: blur(21px);
   -webkit-backdrop-filter: blur(21px);
@@ -44,7 +26,6 @@ const LastEntry = styled.ul`
   border-radius: 20px;
 `;
 
-// Props = diaryEntries state & addEntry function (below, needs to be moved)
 const DiaryComponent = ({ addEntry }) => {
   // State for diary entry input text box:
   const [entry, setEntry] = useState("");
@@ -56,7 +37,6 @@ const DiaryComponent = ({ addEntry }) => {
   }, []);
   // To update the text as a diary entry is being typed:
   const handleTextChange = (evt) => {
-    // console.log(evt.target.value)
     setEntry(evt.target.value);
   };
 
