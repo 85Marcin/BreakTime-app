@@ -28,7 +28,7 @@ Install server dependencies: <br/>
 `npm i` <br/>
 
 Seed the database: <br/>
-`npm ru seeds`<br/>
+`npm run seeds`<br/>
 
 Run express:<br/>
 `npm run server:dev`<br/>
