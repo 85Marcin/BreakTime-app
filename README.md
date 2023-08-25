@@ -53,4 +53,4 @@ Run the client:<br/>
 - Charlotte Broadley ([LinkedIn](https://www.linkedin.com/in/charbroadley/), [GitHub](https://github.com/coose911))
 - Marcus Thompson ([LinkedIn](https://www.linkedin.com/in/marcus-thomson91/), [GitHub](https://github.com/coose911))
 - Daniel Salvatori ([LinkedIn](https://www.linkedin.com/in/daniel-salvatori-698912145/), [GitHub](https://github.com/CrispyBread1))
-- Marcin Egzmont ([GitHub](https://github.com/85Marcin))
+- Marcin Egzmont ([LinkedIn](https://www.linkedin.com/in/marcin-egzmont-194937273)[GitHub](https://github.com/85Marcin))
